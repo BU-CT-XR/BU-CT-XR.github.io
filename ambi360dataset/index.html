@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Ambisonic 360 datasets">
+  <meta property="og:title" content="Ambisonic 360 datasets"/>
+  <meta property="og:description" content="Ambisonic 360 datasets"/>
+  <meta property="og:url" content="BU-CT-XR.github.io/ambi360dataset"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Ambisonic 360 datasets">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Ambisonic 360 datasets</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Beyond Short Segments: A Comprehensive
+              Multi-Modal Salience Prediction Dataset With
+              Standard-Length 360-Degree Videos</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="" target="_blank">Zequn Li</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="" target="_blank"> Natalia Adamczewska</a>,</span>
+                  <span class="author-block">
+                    <a href="" target="_blank">Wen Tang</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Bournemouth University</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://ieeexplore.ieee.org/document/10896158" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  <!-- Dataset link -->
+                  <span class="link-block">
+                    <a href="https://drive.google.com/drive/folders/1ME6Er8j7jHXWwZ3FueQjVHmt0IZFbjOP" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-google"></i>
+                    </span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/ambisonic_example.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Example visualization of ambisonic sound with user attention
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Understanding user interactions in immersive 360-
+degree video environment is crucial for the quality of user experience. Complex spatial ambisonic information in 360-degree videos
+enriches sensory experiences but also poses unique challenges for
+multi-modal salience prediction. Recent research has introduced
+various 360-degree datasets containing ambisonic sound but these
+datasets primarily contain only short video segments, typically
+under 30 seconds. Our present study shows that extrapolating
+ambisonic features learnt from short video segments to longer
+ones will lead to inaccuracies in VR video streaming. Therefore,
+we have developed a comprehensive multi-modal standard-length
+(between 40s to 240s) 360-degree video dataset in response to
+challenges of multi-modal salience predication. Based on data
+collected from 30 participants in mono and ambisonic audio
+settings, our user behaviour analysis sheds new light on the
+relationship between ambisonic audio distribution and viewer
+attention across full-length videos. The findings of our study
+underscore the complexity and challenges of applying a feature
+learning strategy from short segments to standard video lengths.
+They demonstrate that extrapolating learning from short video
+segments to longer ones is generally not applicable, even though
+it is widely used in current practices. Furthermore, we assess
+existing salience prediction models and introduce an efficient
+baseline model to evaluate the impact of different modality
+features in our dataset. The insights and the new dataset of our
+study establish a more realistic benchmark for future research
+on multi-modal salience prediction in 360-degree videos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-10">
+          <img src="static/images/table.png" alt="Comparison of multi-modal 360 degree video datasets" style="width: 80%; margin: 0 auto; display: block;"/>
+        </div>
+      </div>
+      <h2 class="subtitle has-text-centered">
+        Comparison of multi-modal 360 degree video dataset.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-10">
+      <img src="static/images/dist.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Three different types of distributions in each column (Red refers to salience distribution and Blue refers to AEM
+distribution)
+        </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@INPROCEEDINGS{10896158,
+        author={Li, Zequn and Adamczewska, Natalia and Tang, Wen},
+        booktitle={2025 IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR)}, 
+        title={Beyond Short Segments: A Comprehensive Multi-Modal Salience Prediction Dataset with Standard-Length 360-Degree Videos}, 
+        year={2025},
+        volume={},
+        number={},
+        pages={44-53},
+        keywords={Representation learning;Solid modeling;Virtual reality;Learning (artificial intelligence);Streaming media;Predictive models;User experience;MONOS devices;Ambisonics;Standards;360 degree video;Ambisonic Sound;Salience Prediction;Multi-modal Learning},
+        doi={10.1109/AIxVR63409.2025.00015}}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
